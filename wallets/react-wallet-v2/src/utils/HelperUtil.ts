@@ -94,6 +94,10 @@ export function isSolanaChain(chain: string) {
   return chain.includes('solana')
 }
 
+export function isNearChain(chain: string) {
+  return chain.includes('near')
+}
+
 /**
  * Formats chainId to its name
  */
